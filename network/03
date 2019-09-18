@@ -1,0 +1,2 @@
+networksetup -getMACaddress Wi-Fi
+
