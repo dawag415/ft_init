@@ -1,0 +1,3 @@
+#you can find your debian version in the system config files located in
+#the /etc folder in a file titled "debian_version"
+cat /etc/debian_version
