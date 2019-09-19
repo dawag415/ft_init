@@ -1,0 +1,2 @@
+#use nslookup on the nat address profided from traceroute.
+nslookup 10.90.1.11

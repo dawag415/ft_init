@@ -1,0 +1,2 @@
+#the "/etc//hosts/" file contains all the local dns entries
+cat /etc/hosts
