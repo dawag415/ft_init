@@ -1,0 +1,2 @@
+#The RSA keys of systems authorized to connect via SSH are stored in the file
+~/.ssh/authorized_keys
