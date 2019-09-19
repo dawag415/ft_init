@@ -1,1 +1,7 @@
-In the "/etc" folder, where all system configuration files are stored, is the file "resolv.conf". To view the nameserver, "cat /etc/resolv.conf".  The command "ll /etc/resolv.conf" informs us that it is a symlink to "/var/run/resolv.conf", the complete path of the File that contains the IP address of the DNS server you are using.    
+#In the "/etc" folder, where all system configuration files
+#are stored, is the file "resolv.conf". To view the nameserver,
+#"cat /etc/resolv.conf".  The command "ls -l /etc/resolv.conf"
+#informs us that it is a symlink to "/var/run/resolv.conf",
+#the complete path of the File that contains the IP address
+#of the DNS server you are using.
+ls -l /etc/resolv.conf

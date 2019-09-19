@@ -1,0 +1,4 @@
+#I understand provider to mean Name Server. You can use whois to look
+#up all listed information on a domain. All the results for slash16.org
+#are from AWS.
+whois slash16.org | grep "Name Server:"
