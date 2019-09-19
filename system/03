@@ -1,0 +1,4 @@
+#The method I used makes it permanant.  If you used the command 
+#"hostname NEW_NAME" you would need to edit both the "/etc/hostname" and 
+#"/etc/hosts" and replace the instances of your old host name with the
+#new one.
