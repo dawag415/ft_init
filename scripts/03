@@ -1,6 +1,8 @@
 #!/bin/bash
-alias vi=nano
-alias cat="rm-f"
-alias mkdir=touch
-alias cd=ls
-
+echo "Enter Your Name"
+read name
+for (( counter=10; counter>0; counter-- ))
+do
+echo "Welcome $name to 42!  Thanks for giving iwagner full credit! PS. Kirby says Hi."
+done
+printf "\n"
