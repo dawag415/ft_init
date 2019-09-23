@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [$1 == "root" ]
+then
+	echo "I AM ROOT. ROOT IS OFF LIMITS!"
+elif [ $(whoami) != "root" ]
+then
+	echo "ROOT ACCESS ONLY"
+else
+	deluser --force --remove-home $1
+fi
