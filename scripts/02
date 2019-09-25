@@ -6,4 +6,4 @@ read username
 	then
 		sudo killall $(pgrep -u $username)
 fi
-sudo userdel-r $username
+sudo userdel -r $username
