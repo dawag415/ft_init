@@ -1,1 +1,1 @@
-sudo useradd NEW_USER
+sudo adduser NEW_USER

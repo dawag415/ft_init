@@ -1,2 +1,2 @@
-#sudo ssh user@ip
+#sudo ssh [-FLAGS] user@ip
 sudo ssh billy@localhost
