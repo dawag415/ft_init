@@ -1,2 +1,2 @@
-# use the su command to switch users. 
-su NEW_USER
+# use the su command to switch users. in the graphical interface, click on the down arrow in the top right of the screen.  select the current user and  choose switch user.  Then log in as the other user. 
+su - OTHER_USER

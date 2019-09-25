@@ -1,11 +1,13 @@
 #!/bin/bash
-
-if [$1 == "root" ]
+echo "Enter user to delete:"
+read username
+real_user='cat /etc/passwd |grep $username'
+if ["$real_user" != "$NULL"]
 then
-	echo "I AM ROOT. ROOT IS OFF LIMITS!"
-elif [ $(whoami) != "root" ]
-then
-	echo "ROOT ACCESS ONLY"
-else
-	deluser --force --remove-home $1
+	sudo passwd -l $username 
+	if [ "$(pgrep -u $username)" != "$NULL" ]
+	then
+		sudo kill -15 $(pgrep -u $username)
 fi
+userdel -r $username
+

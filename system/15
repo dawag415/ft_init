@@ -1,5 +1,5 @@
 #to kill by PID
-kill pid
+kill PID
 
-#to kill by process name
+#to kill by processname
 kill -9 processname

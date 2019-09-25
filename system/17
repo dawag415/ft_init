@@ -1,1 +1,2 @@
-sudo iptables -L
+#sudo ssh user@ip
+sudo ssh billy@localhost

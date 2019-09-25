@@ -1,1 +1,2 @@
 #find pid by using "ps -aux | grep ssh"  then kill -15 pid
+/etc/init.d/sshd stop
